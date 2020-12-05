@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="kortlinkModelStoreContainer" CdmEntityContainer="tmnfGAEntities">
+    <EntitySetMapping Name="kortlinkDatabases">
+      <EntityTypeMapping TypeName="kortlinkModel.kortlinkDatabase">
+        <MappingFragment StoreEntitySet="kortlinkDatabase">
+          <ScalarProperty Name="redirectLocation" ColumnName="redirectLocation" />
+          <ScalarProperty Name="kortlink" ColumnName="kortlink" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
